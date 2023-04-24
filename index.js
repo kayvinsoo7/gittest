@@ -15,6 +15,8 @@ const app = express()
 const mainRouter = require('./mainRoutes')
     
     app.use(mainRouter)
+    // yirowi
+    console.log('Yatzee')
     // ryuiro 24/04
 
     const port = process.env.PORT || 3000
